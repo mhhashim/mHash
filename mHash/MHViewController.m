@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://hashim.uphero.com/mobile"]]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidUnload {
+    [self setWebView:nil];
+    [super viewDidUnload];
+}
 @end

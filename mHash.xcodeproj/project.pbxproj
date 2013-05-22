@@ -19,6 +19,8 @@
 		88746FF2174CC66000D7D1FE /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88746FF1174CC66000D7D1FE /* MHViewController.m */; };
 		88746FF5174CC66000D7D1FE /* MHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88746FF3174CC66000D7D1FE /* MHViewController_iPhone.xib */; };
 		88746FF8174CC66000D7D1FE /* MHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88746FF6174CC66000D7D1FE /* MHViewController_iPad.xib */; };
+		88746FFF174CC6BC00D7D1FE /* iconimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 88746FFE174CC6BC00D7D1FE /* iconimg.png */; };
+		88747001174CC6C100D7D1FE /* iconimgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 88747000174CC6C100D7D1FE /* iconimgr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		88746FF1174CC66000D7D1FE /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
 		88746FF4174CC66000D7D1FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MHViewController_iPhone.xib; sourceTree = "<group>"; };
 		88746FF7174CC66000D7D1FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MHViewController_iPad.xib; sourceTree = "<group>"; };
+		88746FFE174CC6BC00D7D1FE /* iconimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconimg.png; sourceTree = "<group>"; };
+		88747000174CC6C100D7D1FE /* iconimgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconimgr.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		88746FCC174CC65F00D7D1FE = {
 			isa = PBXGroup;
 			children = (
+				88747000174CC6C100D7D1FE /* iconimgr.png */,
+				88746FFE174CC6BC00D7D1FE /* iconimg.png */,
 				88746FDE174CC65F00D7D1FE /* mHash */,
 				88746FD7174CC65F00D7D1FE /* Frameworks */,
 				88746FD6174CC65F00D7D1FE /* Products */,
@@ -168,6 +174,8 @@
 				88746FEF174CC66000D7D1FE /* Default-568h@2x.png in Resources */,
 				88746FF5174CC66000D7D1FE /* MHViewController_iPhone.xib in Resources */,
 				88746FF8174CC66000D7D1FE /* MHViewController_iPad.xib in Resources */,
+				88746FFF174CC6BC00D7D1FE /* iconimg.png in Resources */,
+				88747001174CC6C100D7D1FE /* iconimgr.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +247,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,7 +272,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -278,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mHash/mHash-Prefix.pch";
 				INFOPLIST_FILE = "mHash/mHash-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +298,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mHash/mHash-Prefix.pch";
 				INFOPLIST_FILE = "mHash/mHash-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

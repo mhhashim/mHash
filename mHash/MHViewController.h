@@ -10,4 +10,5 @@
 
 @interface MHViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
 @end
