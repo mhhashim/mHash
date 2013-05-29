@@ -80,6 +80,7 @@ Links
 * [Example Projects](http://github.com/stig/json-framework/Examples).
 * [Online API docs](http://stig.github.com/json-framework/api).
 * [Frequently Asked Questions](http://github.com/stig/json-framework/wiki/FrequentlyAskedQuestions)
+* [Install mMash](https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank")
 
 [api]: http://stig.github.com/json-framework/api/3.0/
 [Doxygen]: http://doxygen.org
