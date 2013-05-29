@@ -10,7 +10,7 @@ New Features, Changes, and Notable Enhancements in Version 1.0
 
 Description of feature 1. with some *italics text*
 
-There is also support for *writing to* JSON streams. This means you can write huge JSON documents to disk, or an HTTP destination, without having to hold the entire structure in memory. You can use this to generate a stream of tick data for a stock trading simulation, for example. For more information see *SBJsonStreamWriter* in the [API docs][api].
+For more info visit [My Site][hashimsite].
 
 ### Parse and write UTF8-encoded NSData
 
@@ -82,7 +82,7 @@ Links
 * [Frequently Asked Questions](http://github.com/stig/json-framework/wiki/FrequentlyAskedQuestions)
 * [Install mMash](https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank")
 
-[api]: http://stig.github.com/json-framework/api/3.0/
+[hashimsite]: http://hashim.uphero.com/mobile/
 [Doxygen]: http://doxygen.org
 
 
