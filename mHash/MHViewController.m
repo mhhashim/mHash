@@ -7,7 +7,7 @@
 //
 
 #import "MHViewController.h"
-
+#import "MHWebViewController.h"
 @interface MHViewController ()
 
 @end
@@ -18,8 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://hashim.uphero.com/mobile"]]];
+   
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,7 +28,22 @@
 }
 
 - (void)viewDidUnload {
-    [self setWebView:nil];
+ 
     [super viewDidUnload];
+}
+- (IBAction)enterButtonPressed:(id)sender {
+    MHWebViewController *webVC;
+    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        
+        webVC=[[MHWebViewController alloc]initWithNibName:@"MHWebViewController" bundle:nil];
+
+    }
+    else{
+        webVC=[[MHWebViewController alloc]initWithNibName:@"MHWebViewController_iPad" bundle:nil];
+    }
+    
+    [self presentModalViewController:webVC animated:YES];
+
 }
 @end

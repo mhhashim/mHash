@@ -1,5 +1,5 @@
 //
-//  MHViewController.h
+//  MHWebViewController.h
 //  mHash
 //
 //  Created by Hashim MH on 22/05/13.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MHViewController : UIViewController
-
-- (IBAction)enterButtonPressed:(id)sender;
+@interface MHWebViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
 
 @end

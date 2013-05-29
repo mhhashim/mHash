@@ -21,6 +21,11 @@
 		88746FF8174CC66000D7D1FE /* MHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88746FF6174CC66000D7D1FE /* MHViewController_iPad.xib */; };
 		88746FFF174CC6BC00D7D1FE /* iconimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 88746FFE174CC6BC00D7D1FE /* iconimg.png */; };
 		88747001174CC6C100D7D1FE /* iconimgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 88747000174CC6C100D7D1FE /* iconimgr.png */; };
+		88747008174CCCA700D7D1FE /* MHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88747006174CCCA700D7D1FE /* MHWebViewController.m */; };
+		88747009174CCCA700D7D1FE /* MHWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88747007174CCCA700D7D1FE /* MHWebViewController.xib */; };
+		8874700B174CCD0800D7D1FE /* MHWebViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8874700A174CCD0800D7D1FE /* MHWebViewController_iPad.xib */; };
+		8874700F174CCE2500D7D1FE /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 8874700D174CCE2500D7D1FE /* button.png */; };
+		88747010174CCE2500D7D1FE /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8874700E174CCE2500D7D1FE /* button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,12 @@
 		88746FF7174CC66000D7D1FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MHViewController_iPad.xib; sourceTree = "<group>"; };
 		88746FFE174CC6BC00D7D1FE /* iconimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconimg.png; sourceTree = "<group>"; };
 		88747000174CC6C100D7D1FE /* iconimgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconimgr.png; sourceTree = "<group>"; };
+		88747005174CCCA700D7D1FE /* MHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWebViewController.h; sourceTree = "<group>"; };
+		88747006174CCCA700D7D1FE /* MHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHWebViewController.m; sourceTree = "<group>"; };
+		88747007174CCCA700D7D1FE /* MHWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHWebViewController.xib; sourceTree = "<group>"; };
+		8874700A174CCD0800D7D1FE /* MHWebViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHWebViewController_iPad.xib; sourceTree = "<group>"; };
+		8874700D174CCE2500D7D1FE /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		8874700E174CCE2500D7D1FE /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +73,7 @@
 		88746FCC174CC65F00D7D1FE = {
 			isa = PBXGroup;
 			children = (
+				8874700C174CCDE300D7D1FE /* images */,
 				88747000174CC6C100D7D1FE /* iconimgr.png */,
 				88746FFE174CC6BC00D7D1FE /* iconimg.png */,
 				88746FDE174CC65F00D7D1FE /* mHash */,
@@ -97,6 +109,10 @@
 				88746FF1174CC66000D7D1FE /* MHViewController.m */,
 				88746FF3174CC66000D7D1FE /* MHViewController_iPhone.xib */,
 				88746FF6174CC66000D7D1FE /* MHViewController_iPad.xib */,
+				88747005174CCCA700D7D1FE /* MHWebViewController.h */,
+				88747006174CCCA700D7D1FE /* MHWebViewController.m */,
+				88747007174CCCA700D7D1FE /* MHWebViewController.xib */,
+				8874700A174CCD0800D7D1FE /* MHWebViewController_iPad.xib */,
 				88746FDF174CC65F00D7D1FE /* Supporting Files */,
 			);
 			path = mHash;
@@ -114,6 +130,15 @@
 				88746FEE174CC66000D7D1FE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8874700C174CCDE300D7D1FE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8874700D174CCE2500D7D1FE /* button.png */,
+				8874700E174CCE2500D7D1FE /* button@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +201,10 @@
 				88746FF8174CC66000D7D1FE /* MHViewController_iPad.xib in Resources */,
 				88746FFF174CC6BC00D7D1FE /* iconimg.png in Resources */,
 				88747001174CC6C100D7D1FE /* iconimgr.png in Resources */,
+				88747009174CCCA700D7D1FE /* MHWebViewController.xib in Resources */,
+				8874700B174CCD0800D7D1FE /* MHWebViewController_iPad.xib in Resources */,
+				8874700F174CCE2500D7D1FE /* button.png in Resources */,
+				88747010174CCE2500D7D1FE /* button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +218,7 @@
 				88746FE5174CC65F00D7D1FE /* main.m in Sources */,
 				88746FE9174CC66000D7D1FE /* MHAppDelegate.m in Sources */,
 				88746FF2174CC66000D7D1FE /* MHViewController.m in Sources */,
+				88747008174CCCA700D7D1FE /* MHWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
