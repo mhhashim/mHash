@@ -28,15 +28,17 @@ Links
 =====
 
 
-* [Install mMash](https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank")
+* [Install mMash](http://macbuildserver.com/project/github/build/?xcode_project=mHash.xcodeproj&amp;target=mHash&amp;repo_url=https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank")
 
 [hashimsite]: http://hashim.uphero.com/mobile/
 
 
 
-<!-- MacBuildServer Install Button -->
+
 <div class="macbuildserver-block">
-    <a class="macbuildserver-button" href="http://macbuildserver.com/project/github/build/?xcode_project=mHash.xcodeproj&amp;target=mHash&amp;repo_url=https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank"><img src="http://com.macbuildserver.github.s3-website-us-east-1.amazonaws.com/button_up.png"/></a><br/><sup><a href="http://macbuildserver.com/github/opensource/" target="_blank">by MacBuildServer</a></sup>
+    <a class="macbuildserver-button" href="http://macbuildserver.com/project/github/build/?xcode_project=mHash.xcodeproj&amp;target=mHash&amp;repo_url=https%3A%2F%2Fmhhashim%40bitbucket.org%2Fmhhashim%2Fmhash.git&amp;build_conf=Release" target="_blank">
+<img src="http://com.macbuildserver.github.s3-website-us-east-1.amazonaws.com/button_up.png"/>
+</a><br/>
 </div>
-<!-- MacBuildServer Install Button -->
+
 
