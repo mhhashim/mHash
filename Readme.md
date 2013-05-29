@@ -1,14 +1,14 @@
-SBJson (aka json-framework)
+mHash Application for iOS
 ===========================
 
-JSON (JavaScript Object Notation) is a light-weight data interchange format that's easy to read and write for humans and computers alike. This library implements strict JSON parsing and generation in Objective-C.
 
-New Features, Changes, and Notable Enhancements in 3.0
+
+New Features, Changes, and Notable Enhancements in Version 1.0
 ------------------------------------------------------
 
-### JSON Stream Support
+### Feature 1
 
-We now support parsing of documents split into several NSData chunks, like those returned by *NSURLConnection*. This means you can start parsing a JSON document before it is fully downloaded. Depending how you configure the delegates you can chose to have the entire document delivered to your process when it's finished parsing, or delivered bit-by-bit as records on a particular level finishes downloading. For more details see *SBJsonStreamParser* and *SBJsonStreamParserAdapter* in the [API docs][api].
+Description of feature 1. with some *italics text*
 
 There is also support for *writing to* JSON streams. This means you can write huge JSON documents to disk, or an HTTP destination, without having to hold the entire structure in memory. You can use this to generate a stream of tick data for a stock trading simulation, for example. For more information see *SBJsonStreamWriter* in the [API docs][api].
 
